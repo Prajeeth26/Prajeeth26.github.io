@@ -1,0 +1,118 @@
+body {
+    background-color: #cadef9;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    background-color: #ff4400fd;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: #ffe600;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 5px;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    transition: 0.5s ease-in-out;
+    background: #d5c000;
+}
+
+.heading {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 15px 20%;
+    border-radius: 5px;
+    display: flex;
+    width: 60%;
+    height: 30%;    
+    box-shadow: 8px 8px 5px #0000004b;
+}
+
+section:hover {
+    box-shadow: none;
+}
+
+section img {
+    width: 100%;
+}
+
+.num {
+    background-color: #00000091;
+    width: 6%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    position: absolute;
+    border-radius: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+p {
+    padding: 5px;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section:nth-child(1) {
+    border: 5px solid gold;
+}
+
+section:nth-child(2) {
+    border: 5px solid silver;
+}
+
+section:nth-child(3) {
+    border: 5px solid #ce8946;
+}
+
+.skip {
+    color: #cadef9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skip:hover, .skip:focus{
+    color: #000000;
+    font-weight: bolder;
+    background-color: #ffffff;
+    padding: 2px;
+}
