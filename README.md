@@ -1,2 +1,2 @@
 # Prajeeth26.github.io
-ok
+Prajeeth's Website
