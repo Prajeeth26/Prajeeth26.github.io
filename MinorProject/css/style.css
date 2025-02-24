@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/HomeBackground.png");
+    background-image: url("images/HomeBackground.png");
     background-size: cover;
     background-repeat: repeat;
     overflow-y: hidden;
